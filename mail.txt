@@ -1,0 +1,16 @@
+Lieber Herr Professor,
+
+ich schreibe Ihnen diese Mail aufgrund programmiertechnischer Probleme, die bei uns aufgetreten sind.
+
+Um besser mit Laravel und Vue arbeiten zu können, verwenden wir Inertia.js.
+Wenn wir in einem Controller Daten aus der Datenbank holen, und diese mit Inertia in ein Vue File übergeben wollen, kommt dass Problem auf, dass wir diese Daten, die in Form von Props in Vue sind, nicht oder nur begrenzt verwenden können.
+So können wir sie problemlos ganz normal rendern lassen: {{ beats }},
+können sie aber nicht in einer v-for Schleife verwenden: <li :v-for="x in beats">{{x.title}}</li>
+    Da erhalten wir folgende Fehler
+[BILD]
+Auch mit v-if lässt sich das Problem nicht beheben.
+
+Wir wollten Sie fragen, ob Ihnen dieses Problem eventuell bekannt vorkommt, oder Sie spontan einen Lösungsansatz haben, und ob es ok wäre, wenn wir am Montag in der 2. Stunde zu Ihnen kommen um Ihnen das Problem besser zeigen zu können.
+
+Mit freundlichen Grüßen und ein schönes Wochenende
+Samuel Gerhartinger

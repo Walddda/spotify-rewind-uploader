@@ -1,0 +1,16 @@
+Tables:
+Users
+Beats
+Milestones
+Transactions
+#Complaints
+KeySignatures
+
+beats_users
+beats_milestones
+
+
+
+
+
+php artisan make:model Flight -mfsc
